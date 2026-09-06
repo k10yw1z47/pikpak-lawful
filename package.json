@@ -1,0 +1,7 @@
+{
+  "name": "pikpak-lawful-index",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {"dev": "wrangler dev", "deploy": "wrangler deploy", "db:init:local": "wrangler d1 execute RESOURCE_DB --local --file=./schema.sql", "db:init:remote": "wrangler d1 execute RESOURCE_DB --remote --file=./schema.sql"},
+  "devDependencies": {"wrangler": "^4.0.0"}
+}

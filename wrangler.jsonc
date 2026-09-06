@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "pikpak-lawful-index",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-05",
+  "assets": {"directory": "./public", "binding": "ASSETS"},
+  "d1_databases": [{"binding": "DB", "database_name": "pikpak-lawful-index", "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID"}],
+  "vars": {"ADMIN_TOKEN": "CHANGE_ME_IN_CLOUDFLARE_SECRET"}
+}
